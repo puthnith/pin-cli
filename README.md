@@ -1,6 +1,16 @@
 # pin-cli
 
+![NPM Version](https://img.shields.io/npm/v/@puthnith/pin-cli) ![NPM Downloads](https://img.shields.io/npm/dw/@puthnith/pin-cli)
+
 Generate Swedish personnummer (personal identity number)
+
+## Install
+
+```none
+npm install -g @puthnith/pin-cli
+```
+
+## Usage
 
 ```none
 λ pin --help
@@ -18,6 +28,8 @@ Examples:
   pin 2020-01-01 // 200101-4451
   pin 2020-01-01 --gender female --format long // 202001010681
 ```
+
+## Example
 
 Generate `5` pins for `2020-01-01`
 
