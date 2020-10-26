@@ -1,5 +1,5 @@
 {
-  "name": "pin-cli",
+  "name": "@puthnith/pin-cli",
   "version": "1.0.0",
   "description": "Personnummer CLI",
   "bin": {
@@ -16,6 +16,10 @@
   ],
   "author": "Puthnith Var <puthnith@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puthnith/pin-cli.git"
+  },
   "dependencies": {
     "@personnummer/generate": "^1.0.2",
     "yargs": "^16.1.0"
