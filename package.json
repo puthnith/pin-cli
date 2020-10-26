@@ -1,0 +1,23 @@
+{
+  "name": "pin-cli",
+  "version": "1.0.0",
+  "description": "Personnummer CLI",
+  "bin": {
+    "pin": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {},
+  "keywords": [
+    "swedish",
+    "personnummer",
+    "personal",
+    "identity",
+    "number"
+  ],
+  "author": "Puthnith Var <puthnith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@personnummer/generate": "^1.0.2",
+    "yargs": "^16.1.0"
+  }
+}
