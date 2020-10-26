@@ -33,6 +33,8 @@ const argv = yargs
   .example("pin 2020-01-01 --gender female --format long // 202001010681")
   .parse()
 
+console.log()
+
 const options = { gender: argv.gender, format: argv.format }
 const date = new Date(argv._[0])
 const count = Math.min(Math.max(argv.count, 1), 50)

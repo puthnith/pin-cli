@@ -1,6 +1,6 @@
-# pin-cli
+# @puthnith/pin-cli
 
-![NPM Version](https://img.shields.io/npm/v/@puthnith/pin-cli) ![NPM Downloads](https://img.shields.io/npm/dw/@puthnith/pin-cli)
+[![NPM Version](https://img.shields.io/npm/v/@puthnith/pin-cli)](https://www.npmjs.com/package/@puthnith/pin-cli) ![NPM Downloads](https://img.shields.io/npm/dw/@puthnith/pin-cli)
 
 Generate Swedish personnummer (personal identity number)
 
@@ -35,6 +35,7 @@ Generate `5` pins for `2020-01-01`
 
 ```none
 λ pin --count 5 2020-01-01
+
 200101-6621
 200101-5326
 200101-0509
