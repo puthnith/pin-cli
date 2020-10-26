@@ -2,8 +2,8 @@
 
 Generate Swedish personnummer (personal identity number)
 
-```sh
-pin --help
+```none
+λ pin --help
 
 Options:
   -g, --gender   Specify gender otherwise random     [choices: "male", "female"]
@@ -21,8 +21,8 @@ Examples:
 
 Generate `5` pins for `2020-01-01`
 
-```sh
-pin --count 5 2020-01-01
+```none
+λ pin --count 5 2020-01-01
 200101-6621
 200101-5326
 200101-0509
